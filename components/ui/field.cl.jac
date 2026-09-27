@@ -1,5 +1,5 @@
-cl import from "react" { useMemo }
-cl import from "class-variance-authority" { cva }
+import from "react" { useMemo }
+import from "class-variance-authority" { cva }
 import from ...lib.utils { cn }
 import from .label { Label }
 import from .separator { Separator }
@@ -143,14 +143,14 @@ def:pub FieldSeparator(props: any) -> JsxElement {
         >
             <Separator className="absolute inset-0 top-1/2"/>
             {props["children"]
-            and (
-                <span
-                    className="text-muted-foreground px-2 bg-background relative mx-auto block w-fit"
-                    data-slot="field-separator-content"
-                >
-                    {props["children"]}
-                </span>
-            )}
+                and (
+                    <span
+                        className="text-muted-foreground px-2 bg-background relative mx-auto block w-fit"
+                        data-slot="field-separator-content"
+                    >
+                        {props["children"]}
+                    </span>
+                )}
         </div>;
 }
 
