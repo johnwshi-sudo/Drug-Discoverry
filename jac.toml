@@ -20,6 +20,8 @@ radius = "medium"
 menuAccent = "subtle"
 menuColor = "default"
 [dependencies]
+rdkit = ">=2023.9.1"
+
 [dependencies.npm]
 "@fontsource-variable/geist" = "*"
 react = "^18.2.0"
