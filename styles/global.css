@@ -29,7 +29,7 @@
     --chart-3: oklch(0.70 0.12 183);
     --chart-4: oklch(0.60 0.10 185);
     --chart-5: oklch(0.51 0.09 186);
-    --radius: 0.45rem;
+    --radius: 0.625rem;
     --sidebar: oklch(0.985 0 0);
     --sidebar-foreground: oklch(0.141 0.005 285.823);
     --sidebar-primary: oklch(0.60 0.10 185);
@@ -72,7 +72,7 @@
     --sidebar-accent-foreground: oklch(0.985 0 0);
     --sidebar-border: oklch(1 0 0 / 10%);
     --sidebar-ring: oklch(0.552 0.016 285.938);
-    --radius: 0.45rem;
+    --radius: 0.625rem;
 }
 
 @theme inline {

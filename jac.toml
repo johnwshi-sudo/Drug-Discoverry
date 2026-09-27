@@ -12,11 +12,11 @@ api_key = "${OPENAI_API_KEY:-}"
 
 
 [jac-shadcn]
-style = "lyra"
+style = "nova"
 baseColor = "zinc"
 theme = "teal"
 font = "geist"
-radius = "small"
+radius = "medium"
 menuAccent = "subtle"
 menuColor = "default"
 [dependencies]
@@ -89,8 +89,8 @@ og_site_name = "Blank canvas"
 enabled = false
 
 [jacpack]
-name = 'autonomous-drug-discovery__1'
-description = 'Jac IDE snapshot for autonomous-drug-discovery__1'
+name = 'autonomous-drug-discovery'
+description = 'Jac IDE snapshot for autonomous-drug-discovery'
 
 [jachammer]
-project_id = "prj_58257cf67fbf4f138edefcae7b564881"
+project_id = "prj_c2a681d6eab5445bae05779d7cf7fe50"
