@@ -1,4 +1,4 @@
-cl import from "radix-ui" { Label as LabelPrimitive }
+import from "radix-ui" { Label as LabelPrimitive }
 import from ...lib.utils { cn }
 
 def:pub Label(props: any) -> JsxElement {

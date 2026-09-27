@@ -2,8 +2,7 @@
 name = "empty"
 version = "0.0.1"
 description = "Empty Jac project - start from scratch"
-entry-point = "main.jac"
-kind = "web-app"
+default-app = "empty"
 
 [byllm]
 [byllm.model]
@@ -84,13 +83,18 @@ og_description = "A minimal jac-shadcn starter."
 og_site_name = "Blank canvas"
 
 
-[scale]
-[scale.microservices]
-enabled = false
-
 [jacpack]
 name = 'autonomous-drug-discovery'
 description = 'Jac IDE snapshot for autonomous-drug-discovery'
 
 [jachammer]
 project_id = "prj_c2a681d6eab5445bae05779d7cf7fe50"
+
+[apps.empty]
+kind = "web-app"
+entry-point = "main"
+
+[apps.discovery]
+kind = "service"
+entry-point = "services.discovery"
+route = "/discovery"
